@@ -1,0 +1,133 @@
+/* Resetting default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Setting up the body */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Styling the header */
+header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #343a40;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff7f50;
+}
+
+/* Main content section */
+.main-content {
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+body {
+    background-image: url('https://dotesports.com/wp-content/uploads/2023/10/Cyberpunk-2077-Screenshot-2023.09.18-23.22.14.82.png?w=1200');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    /* You can also add additional background properties like background-color or background-repeat if needed */
+}
+body {
+    color: white;
+}
