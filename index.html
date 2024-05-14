@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Intro Animation</title>
+<style>
+  /* CSS for the animation */
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Styling for the element to be animated */
+  .intro-text {
+    font-size: 24px;
+    text-align: center;
+    animation: slideIn 1.5s ease-out;
+  }
+</style>
+</head>
+<body>
+  <div class="intro-text">
+    <h1> Online Gambling System</h1>
+    <p>Money won is twice as sweet as money earned!!!</p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Casino</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Online Casino</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="Deposite.html">Deposite</a></li>
+                <li><a href="withdrawal.html">withdrawal</a></li>
+                  <li><a href="GamesInfo.html">GamesInfo</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <h2>Casino Games</h2>
+        <div class="game">
+           <a href="https://m.freeonlinegames.com/game/lucky-vegas-roulette"> <img src="icons8-roulette-94.png" alt="Game 1">
+            <h3>Roulette</h3>
+            <p> </p>
+        </div>
+        
+        <div class="game">
+           <a href="https://m.freeonlinegames.com/game/solitaire-spider-and-klondike"> <img src="solitari.png" alt="Game 1">
+            <h3>Solitaire</h3>
+            <p></p>
+        </div>
+        
+        
+        
+        <!-- Add more games here -->
+    </section>
+
+    <footer>
+        &copy; 2024 Online Casino. All rights reserved.
+    </footer>
+</body>
+</html>
