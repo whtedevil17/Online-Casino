@@ -4,8 +4,8 @@ function validateLoginForm() {
     var password = document.getElementById('password').value;
 
     // Default username and password values
-    var defaultUsername = 'FIWT';
-    var defaultPassword = 'HTML';
+    var defaultUsername = 'project';
+    var defaultPassword = '1234';
 
     // Check if username and password match the default values
     if (username.trim() === defaultUsername && password.trim() === defaultPassword) {
